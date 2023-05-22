@@ -24,3 +24,7 @@ As DirAsyncProber is not currently available on PyPI, you can manually install i
 ## Usage
 
 `python3 dirasyncprober.py -u https://example.com -w wordlist.txt`
+
+## Screenshot
+
+![ApplicationScreenshot](screenshot.png)
