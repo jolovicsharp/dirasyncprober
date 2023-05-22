@@ -1,8 +1,8 @@
-## AsyncDirBuster
+# DirAsyncProber
 
-AsyncDirBuster is an asynchronous directory busting tool inspired by the popular "gobuster dir" command. It allows for fast and efficient enumeration of directories on web applications by leveraging the power of asynchronous programming in Python.
+DirAsyncProber is an asynchronous directory busting tool inspired by the popular "gobuster dir" command. It allows for fast and efficient enumeration of directories on web applications by leveraging the power of asynchronous programming in Python.
 
-### Features
+## Features
 
 - Asynchronous directory busting for improved speed and efficiency.
 - Customizable HTTP method, headers, cookies, and timeout options.
@@ -12,3 +12,15 @@ AsyncDirBuster is an asynchronous directory busting tool inspired by the popular
 - Optional TLS certificate verification for flexible usage.
 - Provides content length information for discovered directories.
 - Supports multi-threading with a configurable concurrency limit.
+
+## Installation
+
+As DirAsyncProber is not currently available on PyPI, you can manually install it by following these steps:
+
+1. Clone this repository from GitHub
+2. Navigate to the project directory : `cd dirasyncprober`
+3. Install the required dependencies using pip : `pip install -r requirements.txt`
+
+## Usage
+
+`python3 dirasyncprober.py -u https://example.com -w wordlist.txt`
